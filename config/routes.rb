@@ -1,4 +1,5 @@
 Nomnomadmin::Application.routes.draw do
+  get "profiles/show"
   devise_for :admins
   devise_for :users
 
