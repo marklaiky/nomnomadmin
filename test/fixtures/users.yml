@@ -5,3 +5,8 @@ mark:
   profile_name: "marklai"
   encrypted_password: "password"
 
+jim:
+  first_name: "Kim"
+  last_name: "Hoskins"
+  email: "jim@teamtreehouse.com"
+  profile_name: "kim_hoskins"
