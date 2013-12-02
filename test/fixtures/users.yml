@@ -10,3 +10,10 @@ jim:
   last_name: "Hoskins"
   email: "jim@teamtreehouse.com"
   profile_name: "kim_hoskins"
+
+maki:
+  first_name: "Marki"
+  last_name: "Sushi"
+  email: "maki@teamtreehouse.com"
+  profile_name: "maki_sushi"
+

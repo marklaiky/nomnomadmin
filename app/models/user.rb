@@ -5,6 +5,8 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :statuses
+  has_many :user_friendships
+  has_many :friends, through: :user_friendships
 
   attr_accessible :email, :password, :password_confirmation, :remember_me,
   				  :first_name, :last_name, :profile_name
@@ -29,5 +31,6 @@ class User < ActiveRecord::Base
                               with: /\A[a-zA-z0-9_-]+\z/,
                               message: "Must be formatted correctly."
                             }
+
 end
 
